@@ -1,0 +1,11 @@
+svg.circle{
+	position:absolute;
+	top:0px;
+	transition-duration: 5s;
+}
+
+svg.circle:hover{
+	position:absolute;
+	top: 100%;
+	transition-duration: 2s;
+}

@@ -1,0 +1,33 @@
+div.vertical1{
+	width: 1px;
+	background-image: linear-gradient(to top, white, black, white);
+	height:100px;
+	float:left;
+	margin-top:5px;
+}
+
+div.vertical2{
+	width:1px;
+	background-image: linear-gradient(to top, white, black, white);
+	height:100px;
+	float:left;
+	margin-left: 109px;
+	margin-top:5px;
+}
+
+div.horizontal1{
+	height:1px;
+	background-image: linear-gradient(to right, white, black, white);
+	width:100px;
+	position:absolute;
+	margin-left:5px;
+}
+
+div.horizontal2{
+	height:1px;
+	background-image: linear-gradient(to right, white, black, white);
+	width:100px;
+	position: relative;
+	top:110px;
+	margin-left:5px;
+}
