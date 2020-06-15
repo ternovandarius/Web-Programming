@@ -1,0 +1,32 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+</head>
+<body>
+	<img src="img1_small.jpg" width="100" alt="img1_small" onmouseover="bigImg(this, 1)" onmouseout="smallImg(this, 1)"></img>
+	<img src="img2_small.jpg" width="100" alt="img2_small" onmouseover="bigImg(this, 2)" onmouseout="smallImg(this, 2)"></img>
+	<img src="img3_small.jpg" width="100" alt="img3_small" onmouseover="bigImg(this, 3)" onmouseout="smallImg(this, 3)"></img>
+	
+	<script>
+		function bigImg(img, x) {
+			if(x==1)
+				img.src="img1_large.jpg";
+			else if (x==2)
+				img.src="img2_large.jpg";
+			else if(x==3)
+				img.src="img3_large.jpg";
+			img.width=300;
+		}
+		
+		function smallImg(img, x) {
+			if(x==1)
+				img.src="img1_small.jpg";
+			else if (x==2)
+				img.src="img2_small.jpg";
+			else if(x==3)
+				img.src="img3_small.jpg";
+			img.width=100;
+		}
+	</script>
+</body>
+</html>

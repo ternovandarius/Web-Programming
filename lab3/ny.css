@@ -1,0 +1,144 @@
+html, body {
+  padding: 0;
+  margin: 0;
+  min-width:100%;
+  width:100%;
+  overflow: auto;
+}
+
+.header {
+  margin: 0;
+  min-width:100%;
+  width:100%;
+  overflow: auto;
+}
+
+button.menuButton{
+	background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+	background-image: url(menuIcon.png);
+	background-size: cover;
+	background-color: white;
+	width: 20px;
+	height: 20px;
+	border:none;
+}
+
+button.searchButton{
+	background:#ffffff url(searchIcon.png);
+	background-size: cover;
+	width: 20px;
+	height: 20px;
+	border:none;
+}
+
+button.simpleTextButton{
+	background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+	height: fit-content;
+	width: fit-content;
+	border:none;
+}
+
+button.upperRightButton{
+	background-color:#567b95;
+	border-color:#326891;
+	border:1px;
+	color:#fff;
+	border-radius:3px;
+	padding: 11px 12px 8px;
+}
+
+div.upperButtonsLayer{
+	margin-top:10px;
+	position:relative;
+    left: 150px;
+    width: calc(100% - 320px);
+    text-align: center;
+}
+
+p.p1{
+	display:inline;
+}
+
+div.titleLayer{
+	position:relative;
+    left: 150px;
+    width: calc(100% - 320px);
+    text-align: center;
+	border-bottom: 1px solid #e2e2e2;
+	padding-bottom:5px;
+	margin-bottom:5px;
+}
+
+div.lowerButtonsLayer{
+	position:relative;
+    left: 150px;
+    width: calc(100% - 320px);
+	border-bottom: 1px solid #121212;
+	padding-bottom:5px;
+    text-align: center;
+}
+
+div.infoPanelLayer{
+	position:relative;
+    left: 150px;
+    width: calc(100% - 320px);
+    text-align: center;
+	border-bottom:double #121212 3px;
+	margin-top:0px;
+	padding-top:0px;
+	margin-bottom:0px;
+	padding-bottom:0px;
+}
+
+div.smallBoxDiv{
+    width: 300px;
+    align-items: left;
+	display:inline-block;
+	border-right: 1px solid #e2e2e2;
+	vertical-align:middle;
+	text-align:left;
+}
+
+div.smallerBoxDiv{
+	width: 125px;
+    align-items: center;
+	display:inline-block;
+	border-right: 1px solid #e2e2e2;
+	vertical-align:middle;
+	padding-left:5px;
+	padding-right:5px;
+}
+
+div.smallerBoxTextDiv{
+	text-align:left;
+	width:125px;
+	border-bottom: 1px solid #e2e2e2;
+}
+
+div.mainNewsLayer{
+	position:relative;
+    left: 150px;
+    width: calc(100% - 320px);
+    text-align: center;
+	border-bottom: 1px solid #e2e2e2;
+	margin-top:0px;
+}
+
+
+a{
+    text-decoration:none;
+}
+
+button {
+ font-size: 75%;
+ font-family: Arial;
+}
+
+p {
+	font-family: nyt-cheltenham;
+	font-size:95%;
+}

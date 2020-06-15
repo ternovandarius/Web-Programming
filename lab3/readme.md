@@ -1,0 +1,1 @@
+In this assignment, I had to replicate the layout of the nytimes.com website.
